@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Comunidad Lucky Lover · CLOVERS</title>
-<meta name="description" content="Únete a la comunidad Lucky Lover de CLOVERS: drops antes que nadie, noticias y anuncios en tu WhatsApp.">
+<meta name="description" content="Únete a la comunidad Lucky Lover de CLOVERS: drops antes que nadie, noticias y anuncios en tu WhatsApp y correo.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Gochi+Hand&display=swap">
@@ -84,6 +84,9 @@ details.aviso summary::-webkit-details-marker{display:none}
 details.aviso summary::after{content:"+";font-family:var(--display);font-size:20px;color:var(--red)}
 details.aviso[open] summary::after{content:"–"}
 details.aviso[open] summary{border-bottom:1.5px solid var(--ink)}
+details.beneficios{margin-top:14px}
+details.beneficios .aviso-body{font-size:15px}
+details.beneficios ul{margin:8px 0 0}
 .aviso-body{padding:4px 14px 14px;font-size:14.5px;line-height:1.55}
 .aviso-body h3{font-family:var(--mono);font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;margin:18px 0 6px}
 .aviso-body h3 span{color:var(--red);margin-right:8px}
@@ -111,7 +114,19 @@ a:focus-visible,summary:focus-visible{outline:3px solid var(--red);outline-offse
     <div class="card-head"><span>Comunidad</span><span>Registro</span></div>
     <div class="card-body">
       <h1 id="reg-t">ÚNETE A LOS LUCKY LOVERS</h1>
-      <p class="lead">Drops antes que nadie, noticias y anuncios en tu WhatsApp.</p>
+      <p class="lead">Drops antes que nadie, noticias y anuncios en tu WhatsApp y tu correo. Interacción directa con el equipo.</p>
+
+      <details class="aviso beneficios">
+        <summary>Qué te da registrarte</summary>
+        <div class="aviso-body">
+          <ul>
+            <li>Acceso anticipado a los drops, antes que nadie.</li>
+            <li>Noticias, anuncios y filosofadas de CLOVERS.</li>
+            <li>Mensajes directos del equipo por WhatsApp y correo.</li>
+            <li>Interacción directa con Comunidad Lucky Lover.</li>
+          </ul>
+        </div>
+      </details>
 
       <form id="reg" novalidate>
         <div class="field" id="f-name">
